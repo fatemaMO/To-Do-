@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import { Router, Link } from "@reach/router"
+import {Link } from "@reach/router"
 
 export default class Home extends Component{
 

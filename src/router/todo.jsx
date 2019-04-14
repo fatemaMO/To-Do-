@@ -124,12 +124,13 @@ export default class   Todoss extends Component {
 
     
     return (
+      <div className="contact">
       <div className="App">
       <h1>
         My ToDo
       </h1>
       <div class="button">
-        <TodoButton  ontodo={this.handeunComplete} oncomplet={this.handelComplete} onAll={this.handelAll}/>
+        <TodoButton className="but" ontodo={this.handeunComplete} oncomplet={this.handelComplete} onAll={this.handelAll}/>
 
       </div>
            <div class="input">
@@ -149,6 +150,7 @@ export default class   Todoss extends Component {
            </div>
            
           
+      </div>
       </div>
     );
   }

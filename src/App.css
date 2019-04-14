@@ -36,6 +36,9 @@
   margin-top: 150px;
   font-size:40px;
 }
+.contact{
+  background-color: rgba(63, 62, 62, 0.836);
+}
 a{
   color: #AA3939;
  
@@ -48,9 +51,22 @@ a:hover {
   text-decoration: underline;
 }
 .but{
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 10px;
-padding-right: 20px;
+
+margin-right:  10px;
+}
+.but1{
+
+margin-left:  20px;
+}
+.but1{
+
+  margin:auto;
+  }
+.input{
+  width:25%;
+  margin: auto;
 }
 body{
   background-image:url('./css/todo.jpg');

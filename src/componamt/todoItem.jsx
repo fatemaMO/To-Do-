@@ -11,7 +11,7 @@ export default function TodoItem(props){
     checked={props.item.completed}
      onChange={props.onChek(props.item)}/>
          <span>{props.item.title}</span>
-         <button  className="pull-right btn btn-sm btn-danger" onClick={props.onDelete(props.item)}>delete</button>
+         <button  className="but2 pull-right btn btn-sm btn-danger" onClick={props.onDelete(props.item)}>delete</button>
 
   </li>
   );
